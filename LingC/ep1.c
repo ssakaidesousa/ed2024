@@ -53,7 +53,7 @@ int main() {
         mediana = vetor[n/2];
     }
 
-    // Cálculo do desvio padrão (variância)
+    // Cálculo do desvio padrão (e variância)
     s2 = (x2 - (x * x) / n) / (n - 1); // Variância
     s = sqrt(s2);  // Desvio padrão
 
